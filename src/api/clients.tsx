@@ -68,7 +68,7 @@ function getPhone() {
 
 export function getList() {
     const list = [];
-    for (let i = 0; i < 12; i++) {
+    for (let i = 0; i < 10; i++) {
         list[i] = {
             city: getCity(),
             name: getName(),
